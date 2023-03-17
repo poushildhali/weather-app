@@ -1,0 +1,62 @@
+.heading h1{
+    /* margin: 10px;
+    padding:5px; */
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1500;
+  
+  }
+  .heading p{
+    margin-left: 10px;
+    padding-left:5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+  
+  }
+  .heading h1,.heading p{
+    display: inline-block;
+  }
+  
+  
+  
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #1d4eee;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 25px;
+  }
+  
+  
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #0a67d1;
+    color: white;
+  }
+  
+  
