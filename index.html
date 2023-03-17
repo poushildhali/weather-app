@@ -21,6 +21,8 @@
   </head>
 
   <body>
+
+
     <!-- Top Navigation Menu -->
     <div class="topnav">
       <a href="#home" class="active">
@@ -30,11 +32,12 @@
           <p>Get live weather report of any cities</p>
         </div>
       </a>
+      <!-- <input class="search" type="text" placeholder="Search cities" spellcheck="false"> -->
       <!-- Navigation links (hidden by default) -->
       <div id="myLinks">
-        <a href="#home">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a class="home" href="pages/home.html">Home</a>
+        <a class="contact" href="pages/contact.html">Contact</a>
+        <a class="about" href="pages/about.html">About</a>
       </div>
       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -42,10 +45,15 @@
       </a>
     </div>
 
+
+    
+    
+
     <div class="card">
       <div class="search">
         <input
           type="text"
+          id="searchbox"
           placeholder="Enter the City Name"
           spellcheck="false"
         />
@@ -77,6 +85,6 @@
       </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="JavaScript/app.js"></script>
   </body>
 </html>

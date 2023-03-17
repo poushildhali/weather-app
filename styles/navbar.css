@@ -1,3 +1,6 @@
+*{
+    cursor: default;
+}
 .heading h1{
     /* margin: 10px;
     padding:5px; */
@@ -30,6 +33,8 @@
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
+    text-align: center;
+    /* cursor: pointer; */
   }
   
   /* Style navigation menu links */
@@ -39,6 +44,7 @@
     text-decoration: none;
     font-size: 17px;
     display: block;
+    cursor: pointer;
   }
   
   /* Style the hamburger menu */
@@ -49,6 +55,7 @@
     right: 0;
     top: 0;
     padding: 25px;
+    cursor: pointer;
   }
   
   
@@ -59,4 +66,14 @@
     color: white;
   }
   
+  /* .home {
+    background: #0a67d1;
+  }
+  .contact {
+    background: #2975cc;
+  }
+  .about {
+    background: #4986cc;
+  } */
+
   

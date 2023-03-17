@@ -1,0 +1,21 @@
+<!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">
+        <!-- the heading -->
+        <div class="heading">
+          <h1>World Weather</h1>
+          <p>Get live weather report of any cities</p>
+        </div>
+      </a>
+      <!-- <input class="search" type="text" placeholder="Search cities" spellcheck="false"> -->
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a class="home" href="pages/home.html">Home</a>
+        <a class="contact" href="pages/contact.html">Contact</a>
+        <a class="about" href="pages/about.html">About</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
