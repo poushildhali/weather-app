@@ -10,7 +10,7 @@ function myFunction() {
   }
 }
 
-// document.body.style.zoom = "75%";
+document.body.style.zoom = "75%";
 
 
 // alert("Welcome to World Weather \nGet live weather reports of any cities");
