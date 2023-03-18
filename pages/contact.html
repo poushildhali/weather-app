@@ -25,7 +25,7 @@
         <!-- <input class="search" type="text" placeholder="Search cities" spellcheck="false"> -->
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
-          <a class="home" href="index.html">Home</a>
+          <a class="home" href="\index.html">Home</a>
           <a class="contact" href="contact.html">Contact</a>
           <a class="about" href="about.html">About</a>
         </div>
@@ -33,6 +33,56 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
+      </div>
+
+
+
+
+      <h2 class="contact" style="text-align: left; color:rgb(17, 17, 17)">Contact Us</h2>
+      <div class="contact">
+            <p> You can contact us through :</p>
+            <p>Phone number : <b style="font-weight: bold;">9876543210</b> </p>
+            <p>Email : <b style="font-weight: bold;">poushildhali@gmail.com</b> </p>
+            <p>LinkedIn : <a href="http://linkedin.com/poushildhali/" style="text-decoration: none;color: rgb(24, 24, 24);cursor: pointer;font-size: 30px;font-weight: bold;">Poushil Dhali</a></p>
+            <p>Twitter : <a href="http://twitter.com/poushildhali/" style="text-decoration: none;color: rgb(25,25,25);cursor: pointer;font-size: 30px;font-weight: bold;">Poushil Dhali</a></p>
+
+            <p>Also you can comment on how I can improve this website by filling up clicking the botton given below and filling up the form.</p>
+
+            <p style="font-size: 20px;font-weight: bold;">I hope you like this project and help me to improve it.</p>
+      </div>
+
+
+
+      <!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1 style="text-align: center;">Contact us</h1>
+
+    <label for="name"><b>Full Name :</b></label>
+    <input type="text" placeholder="Enter Full Name" name="name" required style="height:30px; width: 375px;">
+
+    <label for="country"><b>Country : </b></label>
+    <input type="text" placeholder="Enter country name" name="country" required style="height:30px; width: 390px;">
+
+    <label for="num"><b>Phone Number : </b></label>
+    <input type="text" placeholder="Enter your Phone Number" name="number" required style="height:30px; width: 338px;">
+
+    <label for="mail"><b>Email ID : </b></label>
+    <input type="text" placeholder="Enter your Email ID" name="Email" required style="height:30px; width: 390px;">
+
+    <label for="cmment"><p>Comment : </p></label>
+    <input type="text" placeholder="Enter your comment" name="comment" required style="height:60px; width: 470px;">
+
+    
+
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+        </form>
       </div>
   
   
@@ -47,13 +97,10 @@
 
 
 
+      <script src="javaScript/contact.js"></script>
       <script src="javaScript/nav.js"></script>
     
     
 </body>
-<footer>
-    
-    <p>&#169  copyright	 : made with &#128151 by Poushil Dhali</p>
 
-</footer>
 </html>
