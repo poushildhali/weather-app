@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(135deg, cyan, darkcyan, blue, darkblue, indigo);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* .column {
+    float: left;
+    
+    margin-bottom: 2px;
+    padding-left: 400px;
+    
+  } */
+  
+  .card {
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, blue, darkblue, indigo);
+    color: white;
+    margin: 40px auto;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+    
+    
+    /* background: linear-gradient(135deg, blue, darkblue, indigo);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 15px; */
+  }
+  
+  .about-section {
+    padding: 2px;
+    text-align: center;
+    /* background-color: #003bb9; */
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
