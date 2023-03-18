@@ -44,6 +44,15 @@ body {
   width: 280px;
 }
 
+
+img{
+  float: right;
+  right:10px;
+  padding-right: 100px;
+  padding-top: 85px;
+  width: 38%;
+}
+
 /* The popup form - hidden by default */
 .form-popup {
     width: 500px;
@@ -52,10 +61,13 @@ body {
   display: none;
   position: fixed;
   bottom: 0;
-  right: 15px;
+  left: 15px;
   border: 3px solid #1d60f0;
   /* z-index: 9; */
 }
+
+
+
 
 /* Add styles to the form container */
 .form-container {
