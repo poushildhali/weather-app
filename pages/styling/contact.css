@@ -47,10 +47,13 @@ body {
 
 img{
   float: right;
-  right:10px;
-  padding-right: 100px;
-  padding-top: 85px;
-  width: 38%;
+  
+  padding-right: 50px;
+  padding-top: 75px;
+  padding-left: 75px;
+  padding-bottom: 75px;
+  /* width: 50%; */
+  /* size: 150px; */
 }
 
 /* The popup form - hidden by default */
