@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+  body {
+    background: linear-gradient(135deg, cyan, darkcyan, blue, darkblue, indigo);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  .card {
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, blue, darkblue, indigo);
+    color: white;
+    margin: 100px auto;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+    
+  }
+
+
+  .search {
+    padding-top: 25px;
+    padding-left: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .search input {
+    align-items: center;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 5px 15px;
+    height: 75px;
+    border-radius: 35px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  .search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  .search button img {
+    width: 16px;
+  }
+  ::-webkit-input-placeholder {
+    display: inline-block;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    padding-right: .15em;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer ;
+    
+  }
+  
+  input:focus::-webkit-input-placeholder {
+    -webkit-transform: translateY(-125%);
+    font-size: 75%;
+    opacity: 0.05
+  }
+  
+  input.imitatefocus::-webkit-input-placeholder {
+    -webkit-transform: translateY(-125%);
+    opacity: 0.05
+  }
+  
+  input {
+    font-family: monospace;
+    display: block;
+    font-size: 35px;
+    color: #666;
+    padding-left: 0px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
